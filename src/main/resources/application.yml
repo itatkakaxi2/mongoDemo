@@ -1,0 +1,10 @@
+debug: false
+
+perso:
+  db: mongo           #sql|mongo
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/userdb
+      #uri format: mongodb://[username:password@]host1[:port1][,host2:[port2],...][/[database][?options]]
